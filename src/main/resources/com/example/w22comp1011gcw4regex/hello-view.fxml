@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.w22comp1011gcw4regex.HelloController">
+<AnchorPane prefHeight="400.0" prefWidth="800.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.w22comp1011gcw4regex.HelloController">
    <children>
       <VBox alignment="CENTER" prefHeight="400.0" prefWidth="400.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
           <padding>
@@ -22,6 +22,7 @@
                </children>
             </HBox>
             <Label fx:id="resultLabel" text="Label" />
+            <Label fx:id="replaceAllLabel" text="Label" />
          </children>
       </VBox>
    </children>
